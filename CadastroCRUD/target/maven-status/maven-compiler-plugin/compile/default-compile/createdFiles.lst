@@ -1,0 +1,11 @@
+cadastroCRUD/beans/EnderecoBean.class
+cadastroCRUD/dao/PessoaDAO.class
+cadastroCRUD/beans/PessoaBean.class
+cadastroCRUD/controller/EnderecoCtr.class
+cadastroCRUD/model/Pessoa.class
+cadastroCRUD/Main.class
+cadastroCRUD/model/Endereco.class
+cadastroCRUD/dao/EnderecoDAO.class
+cadastroCRUD/controller/PessoaCtr.class
+cadastroCRUD/Util/JPAUtil.class
+cadastroCRUD/controller/EnderecoCtr$EnderecoController.class

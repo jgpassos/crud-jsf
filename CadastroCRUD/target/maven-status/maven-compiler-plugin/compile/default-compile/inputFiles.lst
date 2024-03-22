@@ -1,0 +1,10 @@
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/controller/EnderecoCtr.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/dao/PessoaDAO.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/dao/EnderecoDAO.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/beans/PessoaBean.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/model/Pessoa.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/controller/PessoaCtr.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/Main.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/model/Endereco.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/Util/JPAUtil.java
+/home/julia/eclipse_workspace2/CadastroCRUD/src/main/java/cadastroCRUD/beans/EnderecoBean.java

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Cadastro de Pessoas</title>
+    <style>
+        .button-container {
+            text-align: center;
+        }
+        .orange-button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</h:head>
+
+<h:body>
+    <h1>Cadastro de Pessoas</h1>
+    
+    <h:form>
+        <div class="button-container">
+            <h:commandButton value="Cadastrar" action="cadastrar.xhtml" styleClass="orange-button"/>
+            <h:commandButton value="Consultar" action="consultar.xhtml" styleClass="orange-button"/>
+        </div>
+    </h:form>
+</h:body>
+</html>

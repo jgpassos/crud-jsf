@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Cadastrar Pessoa</title>
+</h:head>
+
+<h:body>
+    <h1>Cadastro de Pessoa</h1>
+    
+    <h:form>
+        <h:panelGrid columns="2">
+            <h:outputLabel for="nome" value="Nome:"/>
+            <h:inputText id="nome" value="#{pessoaBean.pessoa.nome}" required="true"/>
+
+            <h:outputLabel for="dataNascimento" value="Data de Nascimento:"/>
+            <h:inputText id="dataNascimento" value="#{pessoaBean.pessoa.dataNascimento}" required="true">
+                <f:convertDateTime pattern="dd/MM/yyyy" />
+            </h:inputText>
+
+            <h:outputLabel for="idade" value="Idade:"/>
+            <h:inputText id="idade" value="#{pessoaBean.pessoa.idade}" required="true"/>
+
+            <h:outputLabel for="sexo" value="Sexo:"/>
+            <h:selectOneMenu id="sexo" value="#{pessoaBean.pessoa.sexo}" required="true">
+                <f:selectItem itemValue="Masculino" itemLabel="Masculino" />
+                <f:selectItem itemValue="Feminino" itemLabel="Feminino" />
+            </h:selectOneMenu>
+
+            <h:outputLabel for="estado" value="Estado:"/>
+            <h:inputText id="estado" value="#{pessoaBean.pessoa.endereco.estado}" required="true"/>
+
+            <h:outputLabel for="cidade" value="Cidade:"/>
+            <h:inputText id="cidade" value="#{pessoaBean.pessoa.endereco.cidade}" required="true"/>
+
+            <h:outputLabel for="logradouro" value="Logradouro:"/>
+            <h:inputText id="logradouro" value="#{pessoaBean.pessoa.endereco.logradouro}" required="true"/>
+
+            <h:outputLabel for="numero" value="Número:"/>
+            <h:inputText id="numero" value="#{pessoaBean.pessoa.endereco.numero}" required="true"/>
+
+            <h:outputLabel for="cep" value="CEP:"/>
+            <h:inputText id="cep" value="#{pessoaBean.pessoa.endereco.cep}" required="true"/>
+
+        </h:panelGrid>
+        
+        <h:commandButton value="Cadastrar" action="#{pessoaBean.cadastrarPessoa}"/>
+    </h:form>
+</h:body>
+</html>
